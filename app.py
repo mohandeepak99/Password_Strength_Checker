@@ -27,6 +27,7 @@ def check_password_strength(password):
     elif 3 <= score < 5:
         return "Moderate"
     else:
+        
         return "Weak"
 
 # Route for the home page
